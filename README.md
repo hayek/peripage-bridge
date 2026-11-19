@@ -1,5 +1,7 @@
 # PeriPage Bridge
 
+![PeriPage Bridge: print to a PeriPage P81 from any Mac app over Bluetooth](docs/banner.png)
+
 Print to a **PeriPage P81** A4 thermal printer from any Mac app **over Bluetooth**, without the USB cable.
 
 The official PeriPage macOS driver only prints over USB, and the PeriPage app only runs on iPhone/iPad. PeriPage Bridge connects the two: macOS uses the official driver to render each page, and a small background helper sends the result to the printer over Bluetooth LE.
