@@ -58,6 +58,10 @@ See [docs/PROTOCOL.md](docs/PROTOCOL.md) for the Bluetooth protocol notes: the G
 - The driver's **SD** variant (203×203 dpi) is used on purpose. Over Bluetooth, the HD/UHD variants (203×300 dpi) print pages stretched vertically by about 1.48×.
 - This is an independent project, not affiliated with PeriPage or Xiamen iLeadtek.
 
+## See also
+
+[LabelBridge](https://github.com/hayek/labelbridge) prints labels to a NIIMBOT D11 label printer from a Mac over Bluetooth. It handles batch labels, any language including right-to-left, a command line for AI agents, and the Print dialog.
+
 ## License
 
 MIT, see [LICENSE](LICENSE). This license covers the code in this repository only. The PeriPage driver is © Xiamen iLeadtek and is downloaded from the manufacturer at install time.
